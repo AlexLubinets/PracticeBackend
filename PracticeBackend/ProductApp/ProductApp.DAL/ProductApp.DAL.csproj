@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200206000549_test.cs" />
+    <Compile Remove="Migrations\20200206000549_test.Designer.cs" />
+    <Compile Remove="Migrations\20200206001126_test.cs" />
+    <Compile Remove="Migrations\20200206001126_test.Designer.cs" />
+    <Compile Remove="Migrations\20200206001340_productsGuid.cs" />
+    <Compile Remove="Migrations\20200206001340_productsGuid.Designer.cs" />
+    <Compile Remove="Migrations\20200206001802_test.cs" />
+    <Compile Remove="Migrations\20200206001802_test.Designer.cs" />
+    <Compile Remove="Migrations\20200207214104_InitialOperation.cs" />
+    <Compile Remove="Migrations\20200207214104_InitialOperation.Designer.cs" />
+    <Compile Remove="Migrations\20200207214356_InitialOperation.cs" />
+    <Compile Remove="Migrations\20200207214356_InitialOperation.Designer.cs" />
+    <Compile Remove="Migrations\20200208171911_ProductNameUnique.cs" />
+    <Compile Remove="Migrations\20200208171911_ProductNameUnique.Designer.cs" />
+    <Compile Remove="Migrations\20200210210558_test.cs" />
+    <Compile Remove="Migrations\20200210210558_test.Designer.cs" />
+    <Compile Remove="Migrations\20200213092712_ProductId_Rename.cs" />
+    <Compile Remove="Migrations\20200213092712_ProductId_Rename.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="3.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0" />
+  </ItemGroup>
+
+</Project>
